@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h2 {
+  text-align: left;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #80dbff;
+  padding-left: 25px;
+}
+
+.btn {
+  background-color: transparent;
+}
+
+.submit {
+  border: 1px solid #222;
+  background-color: #ffffff;
+}
+
+.delete {
+  border: none;
+  float: right;
+  margin-right: 20px;
+  font-size: 20px;
+  color: #f80808;
+}
+
+.item {
+  background-color: #ffffff;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.item--painted {
+  background-color: #4680ff;
+}
+
+.date {
+  font-size: 11px;
+  margin-left: 25px;
+}
+
+.activity-type {
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #fffd80;
+}
+
+.activity-type--selected {
+  background-color: #0e1b42;
+  color: #ffffff;
+}
